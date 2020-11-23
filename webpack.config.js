@@ -1,5 +1,6 @@
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
+process.env.NODE_ENV = 'development';
 
 module.exports = {
     "output": {
