@@ -9,7 +9,13 @@ html {
 
 h1 {
   font-size: 200%;
+  font-weight: 800;
   margin-left: 2.4rem;
+}
+
+h2 {
+  font-size: 120%;
+  font-weight: 700;
 }
 
 /* Navbar – Overflow hidden, Background-color, Position fixed, Top, Width, Padding, Grid name, Gloat, Text-align, Font-family */
@@ -100,15 +106,14 @@ ul li ul:hover {
 .products {
   background-color: #95f8f8;
   padding: 1.5rem;
-  border-radius: 4px;
+  border-radius: 5px;
   margin: 1.4rem;
   width: 40%;
 }
 
 .book-title {
   text-align: center;
-  padding-bottom: 1rem;
-  font-weight: bold;
+  padding-bottom: 0.4rem;
 }
 
 .book-author {
@@ -122,4 +127,12 @@ ul li ul:hover {
 
 .add-to-cart-btn {
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #000;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  width: 20%;
+  margin: 1rem auto 0rem auto;
 }

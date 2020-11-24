@@ -2,17 +2,17 @@ import React from 'react';
 
 function Product(props) {
    return (
-       <section className="products">
-           <div className="book-title">
+       <section className = "products">
+           <h2 className = "book-title">
                {props.bookTitle}
-           </div>
-           <div className="book-author">
+           </h2>
+           <div className = "book-author">
                {props.bookAuthor}
            </div>
-           <div className="book-desc">
+           <div className = "book-desc">
                {props.bookDesc}
            </div>
-           <div className="add-to-cart-btn">
+           <div className = "add-to-cart-btn">
                {props.addToCartBtn}
            </div>
        </section>
