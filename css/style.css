@@ -133,6 +133,6 @@ ul li ul:hover {
   border-radius: 5px;
   color: #fff;
   padding: 0.6rem 2rem;
-  width: 20%;
   margin: 1rem auto 0rem auto;
+  display: block;
 }
